@@ -82,6 +82,8 @@ Scope, Events, Regular Expressions, Error Handling, JSON, Automated Testing, Pro
 
 Additionally we make use of sophisticated libraries to transform basic JavaScript knowledge into useful applications: jQuery, Vue.js, and D3.js.
 
+Finally we teach you how to deploy your JavaScript applications to Heroku (for $0) so billions of people can see your work.
+
 If time permits, we will cover the use of JavaScript and JSON to interact with MongoDB which can be used to store vast amounts of data on the internet.
 
 
