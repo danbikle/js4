@@ -1,89 +1,24 @@
-# README.md
+# README
 
-Topics of js4.us:
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-- Online Resources
+Things you may want to cover:
 
-- Github
+* Ruby version
 
-- Runtime environments
-  - Chrome
-  - Firefox
-  - Node.js
+* System dependencies
 
-- Editors
-  - Emacs
-  - Vi
-  - SublimeText
-  - gedit
+* Configuration
 
-- Expressions
-- Variables
-- Debugging
-- Data Types
-- Logical Operators
-- If-then-Logic [ conditionals ]
-- Loops
-- Functions
-  - Definition
-  - Parameters
-  - Invocation
-  - Call
-  - Apply
-  - Closures
-- Objects
-  - Definiions
-  - Properties
-  - Methods
-  - Constructors
-  - Prototypes
-- Scope
-- Math
-- Events
-- Strings
-- Dates
-- Regular Expressions
-- Error Handling
-- Versions
-- JSON
-- Automated Testing
-- Promises
-- Async/Await
+* Database creation
 
-- Noscript
+* Database initialization
 
-- jQuery
+* How to run the test suite
 
-- Vue.js
+* Services (job queues, cache servers, search engines, etc.)
 
-- D3.js
+* Deployment instructions
 
-- Deploy local webserver
-
-In this class we start your JavaScript learning experience with Node.js which is the best way to learn basics of the JavaScript language.
-
-Node.js is an example of 'server-side' JavaScript.
-
-We use Node.js to introduce some JavaScript basics: Variables, Data-Types, Conditionals, Loops, Functions, Objects, Math, Strings and Dates.
-
-Node.js also gives you the opportunity to learn the operation of JavaScript editors like SublimeText3, Vim, Emacs, and gedit.
-
-After you can write and run simple Node.js scripts, we use Node.js to run a web server on your laptop which allows you to enter the world of 'client-side' JavaScript.
-
-Here, you use a browser to load and execute JavaScript (from the Node.js server) which interacts with simple HTML in the browser.  JavaScript running in your browser is 'client-side' JavaScript.
-
-We use 'client-side' JavaScript to revisit basics introduced via 'server-side' JavaScript.
-
-Next we use both types of JavaScript to learn more advanced attributes of the language:
-Scope, Events, Regular Expressions, Error Handling, JSON, Automated Testing, Promises, Async/Await.
-
-Additionally we make use of sophisticated libraries to transform basic JavaScript knowledge into useful applications: jQuery, Vue.js, and D3.js.
-
-Finally we teach you how to deploy your JavaScript applications to Heroku (for $0) so billions of people can see your work.
-
-If time permits, we will cover the use of JavaScript and JSON to interact with MongoDB which can be used to store vast amounts of data on the internet.
-
-Prerequisites: None
-Books: None
-
-
+* ...
