@@ -1,6 +1,6 @@
-# README.md
+todo.txt
 
-Topics of js4.us:
+Topics of javascript4.us:
 
 - Online Resources
 
