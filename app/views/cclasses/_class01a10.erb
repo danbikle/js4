@@ -1,3 +1,52 @@
 <code class='bash'>
-hello
+
+Install virtualbox ova:
+
+https://drive.google.com/file/d/1uqhG7LLJl76DS6Mu8BNe5hnzX5URgXVL
+
+To start, I should install Node.js
+
+cd ~ann
+rm -rf node node-v9*
+wget https://nodejs.org/dist/v9.4.0/node-v9.4.0-linux-x64.tar.xz
+tar xf node-v9.4.0-linux-x64.tar.xz
+ln -s  node-v9.4.0-linux-x64 node
+echo 'export PATH=${HOME}/node/bin:$PATH' > ~/.bashrc
+
+
+browse:
+  https://reactjs.org/tutorial/tutorial.html
+
+npm install -g create-react-app
+create-react-app my-app
+cd my-app
+npm start
+
+rm -rf src/
+
+add
+src/index.css
+from
+https://codepen.io/gaearon/pen/oWWQNa?editors=0100
+
+
+
+add
+src/index.js
+from
+https://codepen.io/gaearon/pen/oWWQNa?editors=0010
+
+prepend js to src/index.js:
+
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+
+
+
+npm start
+
+
+
 </code>
