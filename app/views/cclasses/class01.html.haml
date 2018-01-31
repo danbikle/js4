@@ -265,18 +265,18 @@
   %li
     .syntax
       %pre
-        %code heroku auth:login
+        %code ~/heroku/bin/heroku auth:login
   %li Issue more shell commands:
   %li
     .syntax
       %pre
         %code
-	  mkdir ~/js/
-	  cd    ~/js/
-	  git clone https://github.com/danbikle/js410
-	  cd js410
-	  heroku create js410yourname
-	  git push heroku master
+          mkdir ~/js/
+          cd    ~/js/
+          git clone https://github.com/danbikle/js410
+          cd js410
+          \~/heroku/bin/heroku create js410yourname
+          git push heroku master
   
 
 %hr/
