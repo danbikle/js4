@@ -258,6 +258,26 @@
 %p
   %a(href='https://devcenter.heroku.com/articles/heroku-cli' target='x')
     https://devcenter.heroku.com/articles/heroku-cli
+
+%p Q: How to deploy https://github.com/danbikle/js410 to heroku?
+%ul
+  %li From a shell, login to Heroku using Heroku-CLI:
+  %li
+    .syntax
+      %pre
+        %code heroku auth:login
+  %li Issue more shell commands:
+  %li
+    .syntax
+      %pre
+        %code
+	  mkdir ~/js/
+	  cd    ~/js/
+	  git clone https://github.com/danbikle/js410
+	  cd js410
+	  heroku create js410yourname
+	  git push heroku master
   
+
 %hr/
 
