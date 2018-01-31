@@ -279,8 +279,45 @@
           git push heroku master
 	  
 %p Q: How to step through code served by Heroku?
-%p A: Study the images below:
+%p A: Study the images and comments below.
 
+%p When you visit your heroku-site with a browser, you should see a blank page.
 
+%p This might confuse you; you might think: "Nothing is there."
+
+%p But, both HTML and JavaScript are there.
+
+%p In my  chrome-browser, I did right-click on the page and then selected Inspect:
+%img(src='/class01/db11.png')
 %hr/
+
+%p Then I saw some syntax inside that white page:
+%img(src='/class01/db13.png')
+%hr/
+
+%p I clicked on "Sources" tab near the top:
+%img(src='/class01/db15.png')
+%hr/
+
+%p I clicked on "index.js" icon near the left:
+%img(src='/class01/db17.png')
+%hr/
+
+%p I set a "break-point" at line 7; I clicked the round circle in upper left:
+%img(src='/class01/db19.png')
+%hr/
+
+%p Chrome reloaded the page, started running index.js and stopped at my break-point:
+%img(src='/class01/db21.png')
+%hr/
+
+%p I used the round-circle on the right to step forward to line 10.
+%p After line 10, I used the blue arrow on the right run to the end of the script:
+%img(src='/class01/db23.png')
+%hr/
+
+%p I clicked the Console tab near the top to look for output from index.js:
+%img(src='/class01/db25.png')
+%hr/
+
 
