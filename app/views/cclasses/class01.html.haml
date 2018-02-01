@@ -333,10 +333,36 @@
 %p This is inconvenient when you do JavaScript development.
 
 %p A common work-around I use for this problem is to run a small web-server on my laptop.
-%p Then, I use that web-server to serve JavaScript files to your browser.
+%p Then, I use that web-server to serve JavaScript files to my browser.
 
 %p Q: How to run a small web-server on my laptop?
 %p A: An easy way to do this is to use Node.js
 %p I demonstrate shell commands I use to start a Node.js-web-server on my laptop:
+
+%p
+
+  .syntax
+    %pre
+      %code
+        cd    ~/js/js410
+        npm i
+        node_modules/.bin/http-server
+
+%p When I ran the above shell commands I saw this:
+
+%p
+  .syntax
+    %pre
+      =render 'class01a12'
+
+%p The server is telling me that if I want to stop the server I should:
+%p "Hit CTRL-C to stop the server"
+
+%p Well, I do not want to stop the server; I want it to keep running.
+
+%p So, I do not "Hit CTRL-C to stop the server".
+
+%p I see many students make this mistake.
+
 
 
