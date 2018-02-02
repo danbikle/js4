@@ -1,0 +1,21 @@
+<code class='bash'>// new operator
+function Cat(name, type, weight) {
+  this.name   = name
+  this.type   = type
+  this.weight = weight
+}
+var bob = new Cat('Bob', 'Tabby', 10)
+
+class Dog {
+    constructor(name, type, weight) {
+      this.name   = name
+      this.type   = type
+      this.weight = weight
+    }
+    mood(str) {
+	return this.name + ' is ' + str
+    }
+}
+var rex      = new Dog('Rex', 'Lab', 20)
+var rex_mood = rex.mood('Happy')
+</code>
